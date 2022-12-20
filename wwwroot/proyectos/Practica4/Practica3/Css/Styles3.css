@@ -1,0 +1,104 @@
+
+@media(max-width:2000px) {
+    .rojo{
+        background-color: red;
+        height: 700px;
+        font-size: 200px;
+        text-align: center;
+    }
+
+    .verde{
+        background-color: rgb(26, 165, 44);
+        height: 100px;
+        text-align: center;
+    }
+
+    .amarillo{
+        background-color: rgb(227, 247, 7);
+        height: 100px;
+        text-align: right;
+    }
+    .amarillo1{
+        background-color: rgb(227, 247, 7);
+        height: 100px;
+        text-align: left;
+    }
+
+
+}
+
+@media(max-width:990px) {
+
+    .amarillo{
+        background-color: rgb(227, 247, 7);
+        height: 100px;
+        text-align: center;
+    }
+    .amarillo1{
+        background-color: rgb(227, 247, 7);
+        height: 100px;
+        text-align: center;
+    }
+
+    .rojo{
+        background-color: red;
+        height: 380px;
+        font-size: 200px;
+        text-align: right;
+    }
+
+    .rojo1{
+        background-color: red;
+        height: 380px;
+        font-size: 200px;
+        text-align: left;
+    }
+
+    .verde{
+        background-color: rgb(26, 165, 44);
+        height: 200px;
+        font-size: 150px;
+        text-align: center;
+    }
+
+    .azul{
+        background-color: rgb(0, 241, 249);
+        height: 100px;
+        text-align: center;
+    }
+}
+
+@media(max-width:576px) {
+
+    .rojo{
+        background-color: red;
+        height: 200px;
+        font-size: 100px;
+        text-align: left;
+    }
+
+    .rojo1{
+        background-color: red;
+        height: 200px;
+        font-size: 100px;
+        text-align: right;
+    }
+
+    .amarillo{
+        background-color: rgb(227, 247, 7);
+        height: 100px;
+    }
+
+    .rosa{
+        background: pink;
+        height: 100px;
+        text-align: center;
+    }
+
+    .azul{
+        background-color: rgb(0, 241, 249);
+        height: 200px;
+        font-size: 100px;
+        text-align: center;
+    }
+}

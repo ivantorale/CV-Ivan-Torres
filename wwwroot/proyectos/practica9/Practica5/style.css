@@ -1,0 +1,166 @@
+.titulos {
+    text-align: center;
+    margin-top: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+}
+
+body {
+    background: #373b37;
+}
+
+#canciones {
+    height: 250px;
+    width: 250px;
+}
+
+.fotos {
+    margin-bottom: 20px;
+}
+
+div.noticia {
+    width: 50%;
+    margin: 20px auto;
+    background-color: rgb(78, 78, 78);
+    color: #fff;
+    padding: 15px;
+}
+
+div.noticia img.izquierda {
+    float: left;
+    margin-right: 15px;
+}
+
+.tmusica {
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.catalogo {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    overflow: hidden;
+    border: #000;
+}
+
+.caja {
+    margin: 15px;
+    box-shadow: 5px 20px 50px #000;
+    background-color: #000;
+    color: rgb(138, 138, 138);
+    border-radius: 10px;
+    width: 200px;
+}
+
+.productoimg {
+    height: 150px;
+    width: 150px;
+    margin-top: 20px;
+}
+
+.mas {
+    text-align: center;
+    justify-content: center;
+    margin-left: 48%;
+    margin-right: 42%;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.caja:hover {
+    background-color: rgb(74, 74, 74);
+    color: rgb(255, 255, 255);
+}
+
+.summery-selected-items {
+    width: 100%;
+    background: #373b37;
+    float: left;
+    padding: 30px;
+}
+
+.summery-selected-items h4 {
+    font-family: 'Raleway-Medium';
+    font-size: 24px;
+    color: #000;
+    margin-bottom: 15px;
+}
+
+.summery-selected-items table {
+    margin-bottom: 35px;
+    width: 100%;
+}
+
+.summery-selected-items table th {
+    font-family: 'Raleway-Regular';
+    font-size: 18px;
+    color: #ffffff;
+    padding: 10px 0px;
+}
+
+.summery-selected-items .padding {
+    padding: 10px 20px;
+}
+
+.summery-selected-items table td {
+    font-family: 'Raleway-Regular';
+    font-size: 15px;
+    color: #ffffff;
+    padding: 10px 15px;
+    vertical-align: middle;
+}
+
+.selected-first {
+    display: table;
+}
+
+.selected-first img {
+    float: left;
+}
+
+.selected-first .select-name {
+    display: table-cell;
+    padding-left: 20px;
+    vertical-align: middle;
+    width: auto;
+}
+
+.table-body tr {
+    margin-bottom: 25px;
+    background: linear-gradient(to bottom, #373b37, #333333);
+}
+
+.selected-first img {
+    width: 100px;
+    height: 100px;
+    background: #000;
+}
+
+div.portada {
+    width: 50%;
+    color: #fff;
+    padding: 15px;
+    margin-left: 15%;
+}
+
+div.portada img.izquierda {
+    float: none;
+}
+
+.titulosp {
+    text-align: center;
+    margin-top: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    float: right;
+}
+
+.audio {
+    margin-top: 100px;
+}

@@ -1,0 +1,26 @@
+﻿<br/>
+<h1 style="text-align:center; margin-bottom:30px">Formation Academic</h1>
+<div class="container">
+	<div class="row row-cols-1 row-cols-md-1 g-12">
+		@foreach (var formation in ViewBag.VFormation)
+		{
+			<div class="col">
+				<div style="margin-bottom:100px">
+					<img src="@formation.Foto" id="fotoacademy" alt="imagen proyecto" style="float:left; margin-right:20px;" height="100px"/>
+					<b style="text">@formation.Ciclo</b>
+					<p>
+						@formation.Ubicacion
+					</p>
+					<p>
+						@formation.Año
+					</p>
+					<div style="float:right;">
+						<a class="btn btn-primary" href="@formation.Link" target="_blank"
+					   rel="noopener noreferrer">Visitar</a>
+					</div>
+				</div>
+					
+			</div>
+		}
+	</div>
+</div>

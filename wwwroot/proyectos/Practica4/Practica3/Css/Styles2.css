@@ -1,0 +1,31 @@
+@media(max-width:2000px) {
+    .verde {
+        background-color: rgb(26, 165, 44);
+        height: 100px;
+        text-align: center;
+    }
+
+    .naranja {
+        background-color: orange;
+        height: 100px;
+        text-align: center;
+    }
+
+    .azul {
+        background-color: blue;
+        height: 100px;
+        text-align: center;
+    }
+
+    .gris {
+        background: gray;
+        height: 100px;
+        text-align: center;
+    }
+
+    .turquesa {
+        background: turquoise;
+        height: 100px;
+        text-align: center;
+    }
+}

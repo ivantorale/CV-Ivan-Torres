@@ -1,0 +1,74 @@
+.noticia {
+  margin-bottom: 0.2em;
+  background-color: rgba(151, 181, 226, 0.685);
+  color: black;
+  padding: 1em;
+  text-align: center;
+  text-decoration: none;
+}
+
+div.noticia img.izquierda {
+  float: left;
+  margin-right: auto;
+  width: 150px;
+  height: auto;
+}
+.caja{
+  width: 100px;
+  background-color: rgb(255, 255, 255);
+}
+
+#contenedor, #contenedor2, #contenedor3{
+  width: 100px;
+  height: 20px;
+  border:3px solid black;
+}
+
+.texto{
+  background-color: rgb(255, 255, 255);
+  border:3px solid black;
+  width: 100px;
+  height: 20px;
+}
+
+.ivan{
+  width: 100px;
+  height: 20px;
+  background-color: rgb(255, 255, 255);
+}
+
+.catalogo {
+  display:flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.historia{
+  background-color: rgb(182, 182, 182);
+  border: 5px solid black;
+  padding: 30px;
+  margin-bottom: 0.5%;
+}
+
+img{
+  float: right;
+  width: 48%;
+}
+
+.opcion1, .opcion2{
+  margin-top: 0.1%;
+  border: 5px solid black;
+  margin-right: 50%;
+  padding: 30px;
+}
+.opciones{
+  font-weight: bold;
+}
+
+button{
+  background-color: rgb(118, 118, 246);
+  
+}

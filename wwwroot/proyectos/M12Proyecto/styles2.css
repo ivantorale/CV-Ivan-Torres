@@ -1,0 +1,113 @@
+body {
+    background: linear-gradient(to right, #2100C6, #8F009B);
+    background-size: cover;
+    font-family: Arial, Helvetica, sabs-serif;
+}
+
+.from-body {
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    border-radius: 10px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border: solid 4px #D5C4FF;
+    margin-left: 39%;
+    background: #C28CF2;
+}
+
+.from-body img {
+    width: 120px;
+    display: block;
+    margin: 20px auto;
+}
+
+.text {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: black;
+    margin-bottom: 25px;
+}
+
+.from-body input {
+    display: block;
+    margin: auto;
+    height: 40px;
+    width: 75%;
+    padding-left: 10px;
+    color: black;
+    border: 1px solid black;
+    border-radius: 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #D5C4FF;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 1rem;
+    outline: none;
+}
+
+.from-body input[type="password"] {
+    margin-top: 20px;
+}
+
+::placeholder {
+    font-size: 1rem;
+    color: black;
+}
+
+#button:hover,
+#Password:hover,
+#Login:hover {
+    transition: .5s;
+    border: 1px solid white;
+    color: black;
+}
+
+.from-body button {
+    display: block;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    height: 40px;
+    width: 78%;
+    background: transparent;
+    color: black;
+    border-radius: 2px;
+    cursor: pointer;
+    outline: none;
+    border: 2px slid orange;
+    transition: all .5s ease;
+}
+
+.from-body button:hover {
+    color: white;
+    border: 2px solid white;
+    background: linear-gradient(#34495e, #2c3e50);
+}
+
+#button,
+#button1 {
+    background: linear-gradient(to right, #8A7FC3, #C17FC3);
+}
+
+#error {
+    background: #C28CF2;
+    border: #C28CF2;
+    text-align: center;
+    color: red;
+}
+
+.cerrar {
+    background-color: transparent;
+    border: transparent;
+    background: rgba(255, 255, 255, .5);
+    float: right;
+    border-radius: .9em;
+    margin: 25px;
+}
+
+.imagen {
+    width: 80px;
+    height: 80px;
+}

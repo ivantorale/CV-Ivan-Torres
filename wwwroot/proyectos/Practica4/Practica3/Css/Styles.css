@@ -1,0 +1,50 @@
+
+@media(max-width:2000px){
+    .verde{
+        background-color: rgb(26, 165, 44);
+        height: 100px;
+    }
+    .rojo{
+        background-color: red;
+    }
+    .rosa{
+        background: rgb(252, 0, 139);
+        height: 100px;
+    }
+    .naranja{
+        background-color: orange;
+        height: 100px;
+    }
+    .azul{
+        background-color: blue;
+        height: 100px;
+    }
+    .rojo1{
+        background-color: red;
+        height: 100px;
+    }
+}
+
+
+@media(max-width:576px){
+    .verde{
+        background-color: rgb(26, 165, 44);
+        height: 100px;
+    }
+    .rosa{
+        background: rgb(252, 0, 139);
+        height: 100px;
+    }
+    .naranja{
+        background-color: orange;
+        height: 100px;
+    }
+    .azul{
+        background-color: blue;
+        height: 100px;
+    }
+    .rojo{
+        background-color: red;
+        height: 100px;
+    }
+}

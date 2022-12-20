@@ -1,0 +1,16 @@
+﻿<h1 style="text-align:center; margin-bottom:30px">Technical Knowledge</h1>
+<div class="container">
+	<div class="row row-cols-1 row-cols-md-3 g-4">
+		@foreach (var techincal in ViewBag.VTechincal)
+		{
+			<div class="col">
+				<div class="card h-100">
+					<img src="@techincal.Foto" class="card-img-top" alt="imagen proyecto" style="height:200px"/>
+					<div class="card-body">
+						<h5 class="card-title">@techincal.Title</h5>
+					</div>
+				</div>
+			</div>
+		}
+	</div>
+</div>
